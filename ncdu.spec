@@ -1,5 +1,5 @@
 Name:		ncdu
-Version:	1.8
+Version:	1.9
 Release:        1
 Summary:	Text-based disk usage viewer
 
@@ -27,5 +27,5 @@ and provides a fast way to see what directories are using your disk space.
 
 %files
 %{_mandir}/man1/ncdu.1.xz
-%doc AUTHORS COPYING ChangeLog TODO
+%doc COPYING ChangeLog
 %{_bindir}/ncdu
