@@ -1,5 +1,5 @@
 Name:		ncdu
-Version:	1.9
+Version:	1.10
 Release:        1
 Summary:	Text-based disk usage viewer
 
