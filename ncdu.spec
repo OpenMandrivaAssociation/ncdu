@@ -1,5 +1,5 @@
 Name:		ncdu
-Version:	1.14.1
+Version:	1.15
 Release:	1
 Summary:	Text-based disk usage viewer
 
@@ -19,13 +19,12 @@ and provides a fast way to see what directories are using your disk space.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
-#make install DESTDIR=% {buildroot}
+%make_install
 
 %files
-%{_mandir}/man1/ncdu.1.xz
+%{_mandir}/man1/ncdu.1.*
 %doc COPYING ChangeLog
 %{_bindir}/ncdu
