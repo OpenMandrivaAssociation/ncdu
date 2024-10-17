@@ -5,7 +5,7 @@ Summary:	Text-based disk usage viewer
 
 Group:		Monitoring
 License:        MIT
-URL:            http://dev.yorhel.nl/ncdu/
+URL:            https://dev.yorhel.nl/ncdu/
 Source0:        http://dev.yorhel.nl/download/%{name}-%{version}.tar.gz
 
 BuildRequires:  ncurses-devel
