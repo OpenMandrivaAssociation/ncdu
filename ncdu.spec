@@ -8,6 +8,11 @@ License:        MIT
 URL:            https://dev.yorhel.nl/ncdu/
 Source0:        http://dev.yorhel.nl/download/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  ncurses-devel
 
 %description
